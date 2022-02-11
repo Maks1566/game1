@@ -1,0 +1,105 @@
+.bi {
+	background-image: url(forest.png);
+	background-size: 100% 100%;
+	background-attachment:fixed;
+}
+.list {
+	width: 400px;
+	background-color: #89ffdf;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	background: rgba(101, 255, 186, 0.7);
+}
+.box {
+	height: 500px;
+	width: 800px;
+	background-color: #89ffdf;
+	border-radius: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background: rgba(101, 255, 186, 0.7);
+}
+.btn {
+	width: 140px;
+	height: 40px;
+	background-color: lightblue;
+	font-size: 20px;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-left: 125px;
+}
+.f {
+	font-size: 35px; 
+	text-align: center; 
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.i {
+	font-size: 20px;
+	margin-top: 10px;	
+	text-align: center;
+	margin-bottom: 0px;
+}
+.obj1 {
+	transition-duration: 1s;
+	position: absolute;
+	background-image: url(https://storage.googleapis.com/multi-static-content/previews/artage-io-thumb-dd9c0f064d5319bde15c9572624c8699.png);
+	background-size: 100% 100%;
+	height: 190px;
+	width: 260px;
+	top: 300px;
+	left: 600px;
+}
+.obj2 {
+	transition-duration: 1s;
+	position: absolute;
+	background-image: url(https://www.publicdomainpictures.net/pictures/380000/velka/rattle-snake-in-strike-pose.png);
+	background-size: 100% 100%;
+	height: 160px;
+	width: 240px;
+	top: 300px;
+	left: 900px;
+}
+.obj3 {
+	transition-duration: 1s;
+	position: absolute;
+	background-image: url(https://abrakadabra.fun/uploads/posts/2021-12/1639396355_45-abrakadabra-fun-p-popugai-bez-fona-55.png);
+	background-size: 100% 100%;
+	height: 210px;
+	width: 180px;
+	top: 300px;
+	left: 1150px;
+}
+.obj4 {
+	transition-duration: 1s;
+	position: absolute;
+	background-image: url(https://avatanplus.com/files/resources/original/5c83884b47e7516961cc661f.png);
+	background-size: 100% 100%;
+	height: 190px;
+	width: 260px;
+	top: 500px;
+	left: 600px;
+}
+.obj5 {
+	transition-duration: 1s;
+	position: absolute;
+	background-image: url(https://thumb.tildacdn.com/tild6131-3864-4439-a265-633063663939/-/resize/298x/-/format/webp/3greenBT.png);
+	background-size: 100% 100%;
+	height: 190px;
+	width: 230px;
+	top: 540px;
+	left: 860px;
+}
+.obj6 {
+	transition-duration: 1s;
+	position: absolute;
+	background-image: url(https://www.pro-dezservice.ru/wp-content/uploads/2020/09/Osa.webp);
+	background-size: 100% 100%;
+	height: 190px;
+	width: 260px;
+	top: 540px;
+	left: 1100px;
+}

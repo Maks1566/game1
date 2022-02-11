@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body class="bi">
+
+	<div class="list">
+		<p class="f">Найдите бабочку</p>
+		<p class="f">Попытки:<span class="score"></span></p>
+		<button class="btn">Перемешать</button>
+	</div>
+	<div class="box"></div>
+
+	<div class="obj1"></div>
+	<div class="obj2"></div>
+	<div class="obj3"></div>
+	<div class="obj4"></div>
+	<div class="obj5"></div>
+	<div class="obj6"></div>
+
+	<script type="text/javascript">
+		document.querySelector(".btn").onclick = function(){
+				document.querySelector(".obj1").style.background = "black"
+				document.querySelector(".obj2").style.background = "black"
+				document.querySelector(".obj3").style.background = "black"
+				document.querySelector(".obj4").style.background = "black"
+				document.querySelector(".obj5").style.background = "black"
+				document.querySelector(".obj6").style.background = "black"
+
+				document.querySelector(".obj1").style.top = "540px"
+				document.querySelector(".obj1").style.left = "800px"
+				document.querySelector(".obj2").style.top = "540px"
+				document.querySelector(".obj2").style.left = "1100px"
+				document.querySelector(".obj3").style.top = "500px"
+				document.querySelector(".obj3").style.left = "600px"
+				document.querySelector(".obj4").style.top = "300px"
+				document.querySelector(".obj4").style.left = "1100px"
+				document.querySelector(".obj5").style.top = "300px"
+				document.querySelector(".obj5").style.left = "850px"
+				document.querySelector(".obj6").style.top = "300px"
+				document.querySelector(".obj6").style.left = "570px"
+		}
+
+		let score = 3;
+		document.querySelector(".score").innerHTML = score;
+		document.querySelector(".obj1").onclick = function(){
+			score = score - 1;
+			alert("Это лягушка!")
+			document.querySelector(".obj1").style.background = "none"
+			document.querySelector(".obj1").style.backgroundImage = "url(https://storage.googleapis.com/multi-static-content/previews/artage-io-thumb-dd9c0f064d5319bde15c9572624c8699.png)"
+			document.querySelector(".obj1").style.backgroundSize = "100% 100%"
+			document.querySelector(".score").innerHTML = score;
+
+			if (score <= 0){
+				alert("Ты проиграл! ._.")
+			document.querySelector(".obj1").style.background = "none"
+			document.querySelector(".obj1").style.backgroundImage = "url(https://storage.googleapis.com/multi-static-content/previews/artage-io-thumb-dd9c0f064d5319bde15c9572624c8699.png)"
+			document.querySelector(".obj1").style.backgroundSize = "100% 100%"
+
+			document.querySelector(".obj2").style.background = "none"
+			document.querySelector(".obj2").style.backgroundImage = "url(https://www.publicdomainpictures.net/pictures/380000/velka/rattle-snake-in-strike-pose.png)"
+			document.querySelector(".obj2").style.backgroundSize = "100% 100%"
+
+			document.querySelector(".obj3").style.background = "none"
+			document.querySelector(".obj3").style.backgroundImage = "url(https://abrakadabra.fun/uploads/posts/2021-12/1639396355_45-abrakadabra-fun-p-popugai-bez-fona-55.png)"
+			document.querySelector(".obj3").style.backgroundSize = "100% 100%"
+
+			document.querySelector(".obj4").style.background = "none"
+			document.querySelector(".obj4").style.backgroundImage = "url(https://avatanplus.com/files/resources/original/5c83884b47e7516961cc661f.png)"
+			document.querySelector(".obj4").style.backgroundSize = "100% 100%"
+
+			document.querySelector(".obj5").style.background = "none"
+			document.querySelector(".obj5").style.backgroundImage = "url(https://thumb.tildacdn.com/tild6131-3864-4439-a265-633063663939/-/resize/298x/-/format/webp/3greenBT.png)"
+			document.querySelector(".obj5").style.backgroundSize = "100% 100%"
+
+			document.querySelector(".obj6").style.background = "none"
+			document.querySelector(".obj6").style.backgroundImage = "url(https://www.pro-dezservice.ru/wp-content/uploads/2020/09/Osa.webp)"
+			document.querySelector(".obj6").style.backgroundSize = "100% 100%"
+			}
+		}
+		document.querySelector(".obj2").onclick = function(){
+			score = score - 1;
+			alert("Это змея!")
+			document.querySelector(".obj2").style.background = "none"
+			document.querySelector(".obj2").style.backgroundImage = "url(https://www.publicdomainpictures.net/pictures/380000/velka/rattle-snake-in-strike-pose.png)"
+			document.querySelector(".obj2").style.backgroundSize = "100% 100%"
+			document.querySelector(".score").innerHTML = score;
+			
+			if (score <= 0){
+				alert("Ты проиграл! ._.")
+			document.querySelector(".obj1").style.background = "none"
+			document.querySelector(".obj1").style.backgroundImage = "url(https://storage.googleapis.com/multi-static-content/previews/artage-io-thumb-dd9c0f064d5319bde15c9572624c8699.png)"
+			document.querySelector(".obj1").style.backgroundSize = "100% 100%"
+
+			document.querySelector(".obj2").style.background = "none"
+			document.querySelector(".obj2").style.backgroundImage = "url(https://www.publicdomainpictures.net/pictures/380000/velka/rattle-snake-in-strike-pose.png)"
+			document.querySelector(".obj2").style.backgroundSize = "100% 100%"
+
+			document.querySelector(".obj3").style.background = "none"
+			document.querySelector(".obj3").style.backgroundImage = "url(https://abrakadabra.fun/uploads/posts/2021-12/1639396355_45-abrakadabra-fun-p-popugai-bez-fona-55.png)"
+			document.querySelector(".obj3").style.backgroundSize = "100% 100%"
+
+			document.querySelector(".obj4").style.background = "none"
+			document.querySelector(".obj4").style.backgroundImage = "url(https://avatanplus.com/files/resources/original/5c83884b47e7516961cc661f.png)"
+			document.querySelector(".obj4").style.backgroundSize = "100% 100%"
+
+			document.querySelector(".obj5").style.background = "none"
+			document.querySelector(".obj5").style.backgroundImage = "url(https://thumb.tildacdn.com/tild6131-3864-4439-a265-633063663939/-/resize/298x/-/format/webp/3greenBT.png)"
+			document.querySelector(".obj5").style.backgroundSize = "100% 100%"
+
+			document.querySelector(".obj6").style.background = "none"
+			document.querySelector(".obj6").style.backgroundImage = "url(https://www.pro-dezservice.ru/wp-content/uploads/2020/09/Osa.webp)"
+			document.querySelector(".obj6").style.backgroundSize = "100% 100%"
+			}
+		}
+		document.querySelector(".obj3").onclick = function(){
+			score = score - 1;
+			alert("Это попугай!")
+			document.querySelector(".obj3").style.background = "none"
+			document.querySelector(".obj3").style.backgroundImage = "url(https://abrakadabra.fun/uploads/posts/2021-12/1639396355_45-abrakadabra-fun-p-popugai-bez-fona-55.png)"
+			document.querySelector(".obj3").style.backgroundSize = "100% 100%"
+			document.querySelector(".score").innerHTML = score;
+
+			if (score <= 0){
+				alert("Ты проиграл! ._.")
+			document.querySelector(".obj1").style.background = "none"
+			document.querySelector(".obj1").style.backgroundImage = "url(https://storage.googleapis.com/multi-static-content/previews/artage-io-thumb-dd9c0f064d5319bde15c9572624c8699.png)"
+			document.querySelector(".obj1").style.backgroundSize = "100% 100%"
+
+			document.querySelector(".obj2").style.background = "none"
+			document.querySelector(".obj2").style.backgroundImage = "url(https://www.publicdomainpictures.net/pictures/380000/velka/rattle-snake-in-strike-pose.png)"
+			document.querySelector(".obj2").style.backgroundSize = "100% 100%"
+
+			document.querySelector(".obj3").style.background = "none"
+			document.querySelector(".obj3").style.backgroundImage = "url(https://abrakadabra.fun/uploads/posts/2021-12/1639396355_45-abrakadabra-fun-p-popugai-bez-fona-55.png)"
+			document.querySelector(".obj3").style.backgroundSize = "100% 100%"
+
+			document.querySelector(".obj4").style.background = "none"
+			document.querySelector(".obj4").style.backgroundImage = "url(https://avatanplus.com/files/resources/original/5c83884b47e7516961cc661f.png)"
+			document.querySelector(".obj4").style.backgroundSize = "100% 100%"
+
+			document.querySelector(".obj5").style.background = "none"
+			document.querySelector(".obj5").style.backgroundImage = "url(https://thumb.tildacdn.com/tild6131-3864-4439-a265-633063663939/-/resize/298x/-/format/webp/3greenBT.png)"
+			document.querySelector(".obj5").style.backgroundSize = "100% 100%"
+
+			document.querySelector(".obj6").style.background = "none"
+			document.querySelector(".obj6").style.backgroundImage = "url(https://www.pro-dezservice.ru/wp-content/uploads/2020/09/Osa.webp)"
+			document.querySelector(".obj6").style.backgroundSize = "100% 100%"
+			}
+		}
+		document.querySelector(".obj4").onclick = function(){
+			score = score - 1;
+			alert("Это богомол!")
+			document.querySelector(".obj4").style.background = "none"
+			document.querySelector(".obj4").style.backgroundImage = "url(https://avatanplus.com/files/resources/original/5c83884b47e7516961cc661f.png)"
+			document.querySelector(".obj4").style.backgroundSize = "100% 100%"
+			document.querySelector(".score").innerHTML = score;
+
+			if (score <= 0){
+				alert("Ты проиграл! ._.")
+			document.querySelector(".obj1").style.background = "none"
+			document.querySelector(".obj1").style.backgroundImage = "url(https://storage.googleapis.com/multi-static-content/previews/artage-io-thumb-dd9c0f064d5319bde15c9572624c8699.png)"
+			document.querySelector(".obj1").style.backgroundSize = "100% 100%"
+
+			document.querySelector(".obj2").style.background = "none"
+			document.querySelector(".obj2").style.backgroundImage = "url(https://www.publicdomainpictures.net/pictures/380000/velka/rattle-snake-in-strike-pose.png)"
+			document.querySelector(".obj2").style.backgroundSize = "100% 100%"
+
+			document.querySelector(".obj3").style.background = "none"
+			document.querySelector(".obj3").style.backgroundImage = "url(https://abrakadabra.fun/uploads/posts/2021-12/1639396355_45-abrakadabra-fun-p-popugai-bez-fona-55.png)"
+			document.querySelector(".obj3").style.backgroundSize = "100% 100%"
+
+			document.querySelector(".obj4").style.background = "none"
+			document.querySelector(".obj4").style.backgroundImage = "url(https://avatanplus.com/files/resources/original/5c83884b47e7516961cc661f.png)"
+			document.querySelector(".obj4").style.backgroundSize = "100% 100%"
+
+			document.querySelector(".obj5").style.background = "none"
+			document.querySelector(".obj5").style.backgroundImage = "url(https://thumb.tildacdn.com/tild6131-3864-4439-a265-633063663939/-/resize/298x/-/format/webp/3greenBT.png)"
+			document.querySelector(".obj5").style.backgroundSize = "100% 100%"
+
+			document.querySelector(".obj6").style.background = "none"
+			document.querySelector(".obj6").style.backgroundImage = "url(https://www.pro-dezservice.ru/wp-content/uploads/2020/09/Osa.webp)"
+			document.querySelector(".obj6").style.backgroundSize = "100% 100%"
+			}
+		}
+		document.querySelector(".obj5").onclick = function(){
+			alert("Это бабочка!")
+			document.querySelector(".obj5").style.background = "none"
+			document.querySelector(".obj5").style.backgroundImage = "url(https://thumb.tildacdn.com/tild6131-3864-4439-a265-633063663939/-/resize/298x/-/format/webp/3greenBT.png)"
+			document.querySelector(".obj5").style.backgroundSize = "100% 100%"
+			document.querySelector(".score").innerHTML = score;
+
+			alert("Ты выиграл! :)")
+			document.querySelector(".obj1").style.background = "none"
+			document.querySelector(".obj1").style.backgroundImage = "url(https://storage.googleapis.com/multi-static-content/previews/artage-io-thumb-dd9c0f064d5319bde15c9572624c8699.png)"
+			document.querySelector(".obj1").style.backgroundSize = "100% 100%"
+
+			document.querySelector(".obj2").style.background = "none"
+			document.querySelector(".obj2").style.backgroundImage = "url(https://www.publicdomainpictures.net/pictures/380000/velka/rattle-snake-in-strike-pose.png)"
+			document.querySelector(".obj2").style.backgroundSize = "100% 100%"
+
+			document.querySelector(".obj3").style.background = "none"
+			document.querySelector(".obj3").style.backgroundImage = "url(https://abrakadabra.fun/uploads/posts/2021-12/1639396355_45-abrakadabra-fun-p-popugai-bez-fona-55.png)"
+			document.querySelector(".obj3").style.backgroundSize = "100% 100%"
+
+			document.querySelector(".obj4").style.background = "none"
+			document.querySelector(".obj4").style.backgroundImage = "url(https://avatanplus.com/files/resources/original/5c83884b47e7516961cc661f.png)"
+			document.querySelector(".obj4").style.backgroundSize = "100% 100%"
+
+			document.querySelector(".obj5").style.background = "none"
+			document.querySelector(".obj5").style.backgroundImage = "url(https://thumb.tildacdn.com/tild6131-3864-4439-a265-633063663939/-/resize/298x/-/format/webp/3greenBT.png)"
+			document.querySelector(".obj5").style.backgroundSize = "100% 100%"
+
+			document.querySelector(".obj6").style.background = "none"
+			document.querySelector(".obj6").style.backgroundImage = "url(https://www.pro-dezservice.ru/wp-content/uploads/2020/09/Osa.webp)"
+			document.querySelector(".obj6").style.backgroundSize = "100% 100%"
+		}
+		document.querySelector(".obj6").onclick = function(){
+			score = score - 1;
+			alert("Это оса!")
+			document.querySelector(".obj6").style.background = "none"
+			document.querySelector(".obj6").style.backgroundImage = "url(https://www.pro-dezservice.ru/wp-content/uploads/2020/09/Osa.webp)"
+			document.querySelector(".obj6").style.backgroundSize = "100% 100%"
+			document.querySelector(".score").innerHTML = score;
+
+			if (score <= 0){
+				alert("Ты проиграл! ._.")
+			document.querySelector(".obj1").style.background = "none"
+			document.querySelector(".obj1").style.backgroundImage = "url(https://storage.googleapis.com/multi-static-content/previews/artage-io-thumb-dd9c0f064d5319bde15c9572624c8699.png)"
+			document.querySelector(".obj1").style.backgroundSize = "100% 100%"
+
+			document.querySelector(".obj2").style.background = "none"
+			document.querySelector(".obj2").style.backgroundImage = "url(https://www.publicdomainpictures.net/pictures/380000/velka/rattle-snake-in-strike-pose.png)"
+			document.querySelector(".obj2").style.backgroundSize = "100% 100%"
+
+			document.querySelector(".obj3").style.background = "none"
+			document.querySelector(".obj3").style.backgroundImage = "url(https://abrakadabra.fun/uploads/posts/2021-12/1639396355_45-abrakadabra-fun-p-popugai-bez-fona-55.png)"
+			document.querySelector(".obj3").style.backgroundSize = "100% 100%"
+
+			document.querySelector(".obj4").style.background = "none"
+			document.querySelector(".obj4").style.backgroundImage = "url(https://avatanplus.com/files/resources/original/5c83884b47e7516961cc661f.png)"
+			document.querySelector(".obj4").style.backgroundSize = "100% 100%"
+
+			document.querySelector(".obj5").style.background = "none"
+			document.querySelector(".obj5").style.backgroundImage = "url(https://thumb.tildacdn.com/tild6131-3864-4439-a265-633063663939/-/resize/298x/-/format/webp/3greenBT.png)"
+			document.querySelector(".obj5").style.backgroundSize = "100% 100%"
+
+			document.querySelector(".obj6").style.background = "none"
+			document.querySelector(".obj6").style.backgroundImage = "url(https://www.pro-dezservice.ru/wp-content/uploads/2020/09/Osa.webp)"
+			document.querySelector(".obj6").style.backgroundSize = "100% 100%"
+			}
+		}
+	</script>
+</body>
+</html>
